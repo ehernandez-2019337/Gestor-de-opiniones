@@ -1,0 +1,335 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "companiesController",
+    "dateExported": "2024-03-01T03:44:26.786Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "e342008f-7ceb-41cc-8329-cd660aa95e5c",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-02-27T20:47:54.286Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "9aabc711-f637-4995-98c0-eb28ce009922",
+            "name": "category",
+            "containerId": "",
+            "created": "2024-02-28T00:28:17.192Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "company",
+            "containerId": "",
+            "created": "2024-02-28T01:43:17.579Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "ad481fd9-5a4d-4b3b-aff6-f0700905634c",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "e342008f-7ceb-41cc-8329-cd660aa95e5c",
+            "name": "test",
+            "url": "localhost:2656/user/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-27T20:48:03.259Z",
+            "modified": "2024-02-28T00:03:44.749Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRlNThhZmY5NTI0MzUxYzJhYTBlYTkiLCJ1c2VybmFtZSI6ImVoZXIiLCJuYW1lIjoiRW1lcnNvbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTA3ODU4NiwiZXhwIjoxNzA5MDg5Mzg2fQ.kYrn_Q2ux0YJTY91A1Zh-WegJa4ion_jh8A-YAWoebs"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bdfd070b-36f2-4983-9dc9-69399a143c8c",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "e342008f-7ceb-41cc-8329-cd660aa95e5c",
+            "name": "register",
+            "url": "localhost:2656/user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T21:37:01.849Z",
+            "modified": "2024-02-28T03:12:05.765Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "julio"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "julio"
+                    },
+                    {
+                        "name": "username",
+                        "value": "jjulio"
+                    },
+                    {
+                        "name": "password",
+                        "value": "1234"
+                    },
+                    {
+                        "name": "email",
+                        "value": "eher@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "role",
+                        "value": "CLIENT"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3e01c278-481f-40fe-a0c1-e0f576014cd5",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "e342008f-7ceb-41cc-8329-cd660aa95e5c",
+            "name": "login",
+            "url": "localhost:2656/user/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-27T21:45:39.395Z",
+            "modified": "2024-02-27T21:46:09.792Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "eher"
+                    },
+                    {
+                        "name": "password",
+                        "value": "1234"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "61f15538-1fd5-41c0-b313-fbb2b7b58500",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "9aabc711-f637-4995-98c0-eb28ce009922",
+            "name": "test",
+            "url": "localhost:2656/category/test",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-28T00:28:24.259Z",
+            "modified": "2024-02-28T00:28:34.774Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "431af411-90d9-4bbd-8cac-86f14e8fbc20",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "9aabc711-f637-4995-98c0-eb28ce009922",
+            "name": "save",
+            "url": "localhost:2656/category/save",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-28T00:28:40.841Z",
+            "modified": "2024-02-28T00:43:10.982Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "SALUD"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Empresas dedicadas al area de salud"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "58069c61-4362-4376-af0c-e5180b858e16",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "9aabc711-f637-4995-98c0-eb28ce009922",
+            "name": "delete",
+            "url": "localhost:2656/category/delete/65de819ed7847f82f4b8e9e1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-28T00:43:18.176Z",
+            "modified": "2024-02-28T00:44:02.436Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRlNThhZmY5NTI0MzUxYzJhYTBlYTkiLCJ1c2VybmFtZSI6ImVoZXIiLCJuYW1lIjoiRW1lcnNvbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTA3ODU4NiwiZXhwIjoxNzA5MDg5Mzg2fQ.kYrn_Q2ux0YJTY91A1Zh-WegJa4ion_jh8A-YAWoebs"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fe20fa5d-c618-4ea7-9822-45e9ae5658aa",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "9aabc711-f637-4995-98c0-eb28ce009922",
+            "name": "get",
+            "url": "localhost:2656/category/get",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-02-28T00:45:10.515Z",
+            "modified": "2024-02-28T00:45:20.389Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d2586344-d448-41b2-b858-b2deff2cb2b8",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "test",
+            "url": "localhost:2656/company/test",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-28T01:43:25.426Z",
+            "modified": "2024-02-28T01:45:11.882Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1952a098-f479-4e74-a5f3-bfcfd66cc517",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "save",
+            "url": "localhost:2656/company/save",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-02-28T01:53:00.093Z",
+            "modified": "2024-02-29T00:04:06.912Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "HP"
+                    },
+                    {
+                        "name": "description",
+                        "value": "empresa dedicada a la venta de aparatos eectronicos"
+                    },
+                    {
+                        "name": "age",
+                        "value": "22"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65de800bd82fae87dfb342bf"
+                    },
+                    {
+                        "name": "impact",
+                        "value": "BAJO"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c9066455-7b41-41cb-b915-a689da8e849b",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "orderaz",
+            "url": "localhost:2656/company/orderAZ",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-02-29T00:13:00.319Z",
+            "modified": "2024-02-29T01:03:31.715Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a1f92dd7-3869-4dd8-bd1e-c07e6a516d87",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "orderaza",
+            "url": "localhost:2656/company/orderZA",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-02-29T01:05:15.135Z",
+            "modified": "2024-02-29T01:05:30.567Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b421d617-bc6a-478e-ab7d-94abaee8f7d6",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "update",
+            "url": "localhost:2656/company/update/65dea9f5c9886d6f36001f31",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2024-02-29T01:11:06.665Z",
+            "modified": "2024-02-29T01:11:43.649Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Esteren"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9cead391-f836-4637-878f-f1d1f95ba319",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "orderAge",
+            "url": "localhost:2656/company/orderAge",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-02-29T01:06:57.909Z",
+            "modified": "2024-02-29T01:07:12.594Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "07344d33-c577-46c2-a236-63e8a27d98a0",
+            "colId": "62cbaa04-0f2e-4e35-9dc1-1da681bee058",
+            "containerId": "57c8be01-dba9-421c-b39b-67e657b686c7",
+            "name": "reporExcel",
+            "url": "localhost:2656/company/report",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-02-29T05:13:59.040Z",
+            "modified": "2024-02-29T05:14:10.207Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
